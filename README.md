@@ -1,5 +1,7 @@
 # **Text-to-Speech Integration**
 ![Telex-Text-To-Speech](https://github.com/user-attachments/assets/ee5d3b9c-225d-4f12-868d-e4c523db5a58)
+
+
 This project converts text messages into audio files and provides a link to the audio. It is designed to make content accessible to visually impaired users or those who prefer audio over text.
 
 ## **Features**
