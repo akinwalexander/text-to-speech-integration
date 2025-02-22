@@ -4,7 +4,7 @@ const AWS = require('aws-sdk');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const integrationSpec = require('./telexSpecConfig');
-const { pingBackend } = require('./cronJob');
+const { pingBackend } = require('./cron');
 const app = express();
 
 app.use(cors());
