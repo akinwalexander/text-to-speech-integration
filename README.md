@@ -15,7 +15,7 @@ This project converts text messages into audio files and provides a link to the 
 - **Backend**: Node.js, Express.js
 - **AWS Services**: Amazon Polly (for AI voice generator)
 - **Libraries**:
-  - `@aws-sdk/client-comprehend`: AWS SDK for interacting with Amazon Polly.
+  - `@aws-sdk/client-polly`: AWS SDK for interacting with Amazon Polly.
   - `dotenv`: For managing environment variables.
   - `cors`: For enabling Cross-Origin Resource Sharing (CORS).
   - `express-rate-limit`: For rate limiting API requests.
