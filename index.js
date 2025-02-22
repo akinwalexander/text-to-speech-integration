@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const integrationSpec = require('./telexSpecConfig');
 
+dotenv.config();
+
 const app = express();
 
 app.use(cors());
