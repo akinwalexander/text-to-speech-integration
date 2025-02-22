@@ -4,11 +4,12 @@ const AWS = require('aws-sdk');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const integrationSpec = require('./telexSpecConfig');
-
+const { pingBackend } = require('./cronJob');
 const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+pingBackend();
 
 // AWS Configuration
 const polly = new AWS.Polly({
