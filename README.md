@@ -63,7 +63,7 @@ PORT=5000
       ```sh
       npm start
       ```
-   2. **The server will be running on `http://localhost:3000.`**
+   2. **The server will be running on `http://localhost:5000.`**
 ##  **API Endpoints**
   ## `GET /`
   * Description: Returns a simple "Telex Api is running" message.
