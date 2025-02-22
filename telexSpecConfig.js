@@ -1,5 +1,3 @@
-const url = "https://9mznbl2f-5000.uks1.devtunnels.ms/";
-
 const integrationSpec =
 {
     "data": {
@@ -11,7 +9,7 @@ const integrationSpec =
         "app_description": "Converts text messages into audio files and provides a link to the audio.",
         "app_logo": "https://i.ibb.co/mrzP66gj/Text-to-speech.png",
         "app_name": "text-to-speech",
-        "app_url": "URL to the application or service.",
+        "app_url": "https://text-to-speech-w87o.onrender.com",
         "background_color": "#4169E1"
       },
       "integration_category": "Monitoring & Logging",
@@ -44,8 +42,8 @@ const integrationSpec =
           "options": ["High", "Low"]
         }
       ],
-      "target_url": "URL for integration or service"
+      "target_url": "https://text-to-speech-w87o.onrender.com/text-to-speech",
     }
   };
       
-      module.exports = integrationSpec;
+module.exports = integrationSpec;

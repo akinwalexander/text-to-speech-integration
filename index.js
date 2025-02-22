@@ -68,7 +68,7 @@ app.get("/health", (req, res) => {
     res.json({ status: "OK" });
 });
 
-app.get("/integration-Spec", (req, res) => {
+app.get("/integration-Spec.json", (req, res) => {
     res.json(integrationSpec);
 });
 
