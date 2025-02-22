@@ -51,6 +51,10 @@ async function uploadToS3(audioData, fileName) {
     return `https://${S3_BUCKET}.s3.amazonaws.com/${filePath}`;
 }
 
+app.get("/", (req, res) => {
+    res.send("Telex API is running!");
+});
+
 app.post("/text-to-speech", async (req, res) => {
     const { message, channel_id } = req.body;
     if (!message) return res.status(400).json({ error: "No message provided" });
